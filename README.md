@@ -99,11 +99,11 @@ npm run build    # dist/: ESM + UMD + .d.ts
 - **Aerial orbit** — drone flyover of ЖК Avalon Holiday
 - **Product spin** — object turntable
 
-Frames in `examples/frames/aerial/` and `examples/frames/product/` come from
-[lun.ua](https://lun.ua/uk/жк-avalon-holiday-сокільники/аерообліт) /
-the original lor-panorama-360 project, **for demonstration only**. Rights
-remain with the owner — see the `CREDITS.md` next to each set. Supply your own
-frames for production use.
+Demo frames are **for demonstration only** — see the `CREDITS.md` next to each
+set. Aerial frames are a drone flyover from
+[lun.ua](https://lun.ua/uk/жк-avalon-holiday-сокільники/аерообліт); the product
+turntable is a generic sample found online (source unknown, unaffiliated with
+lun.ua). Supply your own frames for production use.
 
 ## License
 

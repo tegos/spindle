@@ -29,6 +29,7 @@
   "scripts": {
     "dev": "vite examples",
     "build": "vite build && tsc --emitDeclarationOnly",
+    "build:site": "vite build --config vite.site.config.ts && cp -r examples/frames site-dist/frames",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

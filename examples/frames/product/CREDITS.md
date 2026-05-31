@@ -1,8 +1,8 @@
 # Product demo frame credits
 
-These 52 PNG frames are a product turntable (object spin) sourced from the
-original **lor-panorama-360** project assets (lun.ua).
+These 52 PNG frames are a generic product turntable (object spin) found
+online; the original source/author is unknown. **Not** affiliated with lun.ua.
 
 Included **for demonstration purposes only** to showcase spindle's object-spin
-mode. All rights remain with the original owner. Do not redistribute — supply
-your own frames for production use.
+mode. If you are the rights holder and want them removed, open an issue.
+Supply your own frames for production use.
