@@ -1,0 +1,41 @@
+{
+  "name": "spindle",
+  "version": "0.1.0",
+  "description": "360° frame-sequence spinner (object + aerial orbit). Vanilla TypeScript, zero deps.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "360",
+    "spinner",
+    "panorama",
+    "sprite",
+    "viewer",
+    "canvas",
+    "drag"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/spindle.umd.cjs",
+  "module": "./dist/spindle.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/spindle.js",
+      "require": "./dist/spindle.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite examples",
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  }
+}
