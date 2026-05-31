@@ -19,13 +19,13 @@ flyovers of a building complex). Viewer only — bring your own frames.
 ## Install
 
 ```bash
-npm install spindle
+npm install @tegos/spindle
 ```
 
 ## Usage
 
 ```ts
-import { Spindle } from 'spindle'
+import { Spindle } from '@tegos/spindle'
 
 const s = new Spindle('#jk-avalon', {
   source: ['lun/1.jpg', 'lun/2.jpg', /* … */], // or { sheet, frames, fw, fh }

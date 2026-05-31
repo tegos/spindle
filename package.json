@@ -1,9 +1,19 @@
 {
-  "name": "spindle",
+  "name": "@tegos/spindle",
   "version": "0.1.0",
   "description": "360° frame-sequence spinner (object + aerial orbit). Vanilla TypeScript, zero deps.",
   "type": "module",
   "license": "MIT",
+  "author": "Ivan Mykhavko",
+  "homepage": "https://tegos.github.io/spindle/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tegos/spindle.git"
+  },
+  "bugs": "https://github.com/tegos/spindle/issues",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "360",
     "spinner",
@@ -32,7 +42,8 @@
     "build:site": "vite build --config vite.site.config.ts && cp -r examples/frames site-dist/frames",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "typescript": "^5.6.0",
