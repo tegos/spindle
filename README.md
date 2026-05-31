@@ -1,5 +1,11 @@
 # spindle
 
+[![npm](https://img.shields.io/npm/v/@tegos/spindle?color=cb3837&logo=npm)](https://www.npmjs.com/package/@tegos/spindle)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@tegos/spindle?label=min%2Bgzip)](https://bundlephobia.com/package/@tegos/spindle)
+[![zero deps](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/@tegos/spindle)
+[![license](https://img.shields.io/npm/l/@tegos/spindle?color=blue)](./LICENSE)
+[![demo](https://img.shields.io/badge/demo-live-blue)](https://tegos.github.io/spindle/)
+
 360° frame-sequence spinner for the web — object spins and aerial orbits.
 Vanilla TypeScript, **zero runtime dependencies**, single `<canvas>` render.
 
