@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://tegos.github.io/spindle/">
-    <img src="assets/hero.webp" alt="spindle 360° aerial orbit demo" width="800">
+    <img src="https://raw.githubusercontent.com/tegos/spindle/main/assets/hero.webp" alt="spindle 360° aerial orbit demo" width="800">
   </a>
 </p>
 
