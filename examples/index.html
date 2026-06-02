@@ -29,6 +29,13 @@
         box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
       }
       .viewer.product { aspect-ratio: 4 / 3; }
+      .hero {
+        width: min(900px, 92vw);
+        height: auto;
+        display: block;
+        background: #16191f;
+        border-radius: 10px;
+      }
       .bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
       button {
         background: #1f6feb;
@@ -48,6 +55,19 @@
   <body>
     <h1>spindle</h1>
     <p>Drag to orbit · scroll / double-tap to zoom · autoplay until grab.</p>
+
+    <video
+      class="hero"
+      autoplay
+      loop
+      muted
+      playsinline
+      preload="metadata"
+      poster="hero-poster.jpg"
+      aria-label="spindle 360° aerial orbit demo"
+    >
+      <source src="hero.mp4" type="video/mp4" />
+    </video>
 
     <h2>Aerial orbit</h2>
     <div id="aerial" class="viewer"></div>

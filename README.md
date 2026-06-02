@@ -6,6 +6,12 @@
 [![license](https://img.shields.io/npm/l/@tegos/spindle?color=blue)](./LICENSE)
 [![demo](https://img.shields.io/badge/demo-live-blue)](https://tegos.github.io/spindle/)
 
+<p align="center">
+  <a href="https://tegos.github.io/spindle/">
+    <img src="assets/hero.webp" alt="spindle 360° aerial orbit demo" width="800">
+  </a>
+</p>
+
 360° frame-sequence spinner for the web — object spins and aerial orbits.
 Vanilla TypeScript, **zero runtime dependencies**, single `<canvas>` render.
 
