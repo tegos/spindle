@@ -1,6 +1,6 @@
 {
   "name": "@tegos/spindle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "360° frame-sequence spinner (object + aerial orbit). Vanilla TypeScript, zero deps.",
   "type": "module",
   "license": "MIT",
